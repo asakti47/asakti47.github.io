@@ -1,4 +1,1 @@
-theme: jekyll-theme-cayman # Replace with the name of the Jekyll theme you want to use (optional)
-
-# Build settings
-markdown: kramdown
+theme: minima
