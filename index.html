@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang=""en>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Argy Sakti's Portfolio</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46ynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,00|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Social Media Sidebar -->
+        <div class="social-media-sidebar">
+            <ul>
+               <li><a target="_blank" href="https://github.com/asakti47" class="github"><i class="fa fa-github"></i></a></li>
+               <li><a target="_blank" href="https://twitter.com/_skmerchant" class="twitter"><i class="fa fa-twitter"></i></a></li>
+               <li><a target="_blank" href="https://www.linkedin.com/in/argy-sakti-0385571a8/" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+               <li><a target="_blank" href=mailto:argysakti@nyu.edu" class="mail"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+         </div>         
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <hi class ="section__title section__title--intro">
+                Hi, I am <strong>Argy Sakti</strong>
+            </hi>
+            <p class="section__subtitle section__subtitle--intro">CS/DS Student @ NYU</p>
+            <img src="images/IMG_5532.jpeg" alt="a picture of me!!!" class="intro__img">
+        </section>
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class = "section__title section__title--about">About Me</h2>
+            <p class="section__subtitle section__subtitle--about"></p>
+            <div class="about-me__body">
+                <div>
+                    <p>Hello! My name is Argy Sakti. I am from Jakarta, Indonesia, and have also been fortunate to call London and New York home. I am currently pursuing a joint major in Computer Science/Data Science at New York University (NYU) with an intended graduation date of May 2024.</p>
+                    <p>Throughout my time at NYU, I have gained a solid foundation in computer systems, data cleaning, data management, natural language processing, and statistical analysis.</p>
+                </div>
+                <div class="list-container">
+                    <div class="left-list-div">
+                        <p>Below is a list of my <u><strong>CS/DS coursework</strong></u>:</p>
+                        <ul class="class-list">
+                            <li>Basic Algorithms</li>
+                            <li>Causal Inference</li>
+                            <li>Computer Systems Organisation</li>
+                            <li>Data Management and Analysis</li>
+                            <li>Data Structures</li>
+                            <li>Discrete Mathematics</li>
+                            <li>Introduction to Data Science</li>
+                            <li>Linear Algebra</li>
+                            <li>Natural Language Processing</li>    
+                            <li>Operating Systems</li>    
+                            <li>Principles of Programming Languages</li>
+                            <li>Probability and Statistics</li>    
+                            <li>Processing Big Data for Analytics Applications</li>          
+                        </ul>
+                    </div>
+
+                    <div class="right-list-div">
+                        <p>Also, here are my <u><strong>technical skills</strong></u>:</p>
+                        <ul class="skill-list">
+                            <li><Strong>Programming</Strong>: C, HTML, Java, JavaScript, Python, R, SQL</li>
+                            <li><Strong>Tools</Strong>: Docker, Excel, Github, Jupyter Notebooks, PyCharm, RStudio, Tableau, VSCode</li>
+                            <li><Strong>Data Skills</Strong>: Data Analysis (NumPy, Pandas), Data Management (MongoDB), Data Visualization (Matplotlib, Tableau), 
+                                Machine Learning (Scikit-learn), Web Development (PyMongo, Flask), Web Scraping (Beautiful Soup)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="about-me__documents">
+                <button class="in-body-button" onclick="window.open('documents/Argy_Sakti_Spring_2023_Transcript.pdf', '_blank')">
+                    <p><Strong>Transcript</Strong></p>
+                </button>
+                <button class="in-body-button" onclick="window.open('documents/Argy_Sakti_CV_SWE_2023.pdf', '_blank')">
+                    <p><Strong>Resume</Strong></p>
+                </button>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects" id="projects">
+            <h2 class = "section__title section__title--projects">My Projects</h2>
+            <p class="section__subtitle"></p>
+            <!-- Portfolio item 01 -->
+            <div class="project-container">
+                <div class="project-image">
+                <a href="#">
+                    <img src="images/discord_bot_image.png" alt="" class="project__img">
+                </a>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">FIFA Ultimate Team Discord Bot Service</h3>
+                    <p class="project-description">Launching soon...</p>
+                </div>
+            </div>
+
+            <!-- Portfolio item 02 -->
+            <div class="project-container">
+                <div class="project-image">
+                <a target="_blank" href="https://github.com/asakti47/Idiom-Identification-NLP/blob/main/NLP_Idiom_Identification_Paper.pdf">
+                    <img src="images/Idiom_project_screenshot.png" alt="" class="project__img">
+                </a>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">Idiom Identification with Natural Language Processing</h3>
+                    <p class="project-description">•	Developed a model to detect idioms in text</p>
+                    <p class="project-description">•	Optimized the model for greater precision and accuracy by implementing categorical 
+                        variation and word vectorization to the set of potential idiomatic expressions</p>
+                </div>
+            </div>
+
+            <!-- Portfolio item 03 -->
+            <div class="project-container">
+                <div class="project-image">
+                <a target="_blank" href="https://github.com/asakti47/FIFA-SBC-Calculator">
+                    <img src="images/Fifa_SBC_Helper_image.png" alt="" class="project__img">
+                </a>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">FIFA 22 SBC Price Helper</h3>
+                    <p class="project-description">•	A web app helper tool to solve Squad Building Challenges (SBCs) in FIFA 22 Ultimate Team</p>
+                    <p class="project-description">•	The program determines the cheapest combination needed to achieve a minimum squad rating required by an SBC</p>
+                    <p class="project-description">•	Utilized web scraping tools to obtain the lowest price of a particular player rating from FIFA 22 Ultimate Team's 
+                        virtual transfer market</p>
+                </div>
+            </div>
+
+            <!-- Portfolio item 03 -->
+            <div class="project-container">
+                <div class="project-image">
+                <a target="_blank" href="https://medium.com/@maurice.glucksman/covid-19-localisations-90c8133b7e4d">
+                    <img src="images/covid_article_image.png" alt="" class="project__img">
+                </a>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">COVID-19 Modeling</h3>
+                    <p class="project-description">•	Collaborated in a multinational effort to project the spread of COVID-19 in Indonesia, Haiti, and the United Kingdom</p>
+                    <p class="project-description">•	Explored the interconnected relationship between the spread of the virus with healthcare capacity and lockdown measures</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Work in Progress</p>
+            <p>Argy Sakti, 2023</p>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
